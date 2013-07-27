@@ -1,4 +1,4 @@
-# Compojure-Template
+# Webapp-Template
 
 A Leiningen template for web app projects using Compojure, Hiccup and Bootstrap. 
 
