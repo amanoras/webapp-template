@@ -1,19 +1,14 @@
 # Compojure-Template
 
-A Leiningen template for projects using [Compojure][1]. 
+A Leiningen template for web app projects using Compojure, Hiccup and Bootstrap. 
 
-This tempate is a batteries included version of the official [compojure-template](https://github.com/weavejester/compojure-template). 
-The template sets up several useful wrappers, such as the ones for serving static resources and handling mime types. 
-It also provides a main for running standalone and a handler for WAR deployment which provides correct context resolution.
-
-
-[1]: http://compojure.org
+This tempate is based on [compojure-template](https://github.com/yogthos/compojure-template). 
 
 ## Usage
 
 Run the following command to create a new Compojure project:
 
-    lein new compojure-app <your project name>
+    lein new webapp <your project name>
 
 To create a standalone executable from your project inside the project directory:
 
@@ -40,6 +35,6 @@ Then you can deploy the resulting WAR to Tomcat or any other Java application se
 
 ## License
 
-Copyright © 2012 Yogthos
+Copyright © 2012 Anthony Manoras
 
 Distributed under the Eclipse Public License, the same as Clojure.
